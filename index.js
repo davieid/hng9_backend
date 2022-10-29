@@ -16,3 +16,5 @@ app.get( '/', ( req, res) => {
 app.listen( PORT, () => {
     console.log(`HNG server started on Port ${PORT}`)
 })
+
+module.exports = app
