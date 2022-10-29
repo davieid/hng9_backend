@@ -1,0 +1,29 @@
+{
+  "name": "hng",
+  "version": "1.0.0",
+  "description": "Github repo for the HNG 9 backend task",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davieid/hng9_backend.git"
+  },
+  "keywords": [
+    "hng",
+    "zuri",
+    "backend",
+    "task",
+    "lms"
+  ],
+  "author": "Aiyegbayo Bolaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davieid/hng9_backend/issues"
+  },
+  "homepage": "https://github.com/davieid/hng9_backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
