@@ -1,6 +1,6 @@
 const express = require('express'),
 app = express(),
-PORT = 5100;
+PORT = process.env.PORT || 5100;
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
@@ -16,5 +16,3 @@ app.get( '/', ( req, res) => {
 app.listen( PORT, () => {
     console.log(`HNG server started on Port ${PORT}`)
 })
-
-module.exports = app
