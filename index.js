@@ -17,20 +17,21 @@ app.post( '/', ( req, res) => {
     let op_type = req.body.operation_type,
     x = req.body.x,
     y = req.body.y;
+    console.log(req.body)
     switch (op_type) {
-        case "addition ":
+        case "addition":
             res.json({
                 "slackUsername": "maiyegbayo",
                 "operation_type": op_type,
-                "result": x+y
+                "result": (x+y)
             })
             break;
         
-        case "subtraction ":
+        case "subtraction":
             res.json({
                 "slackUsername": "maiyegbayo",
                 "operation_type": op_type,
-                "result": x-y
+                "result": (x-y)
             })
             break;
 
